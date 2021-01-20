@@ -1,0 +1,110 @@
+Keywords = [
+   {RMSD = {
+       ASL = "((((((chain.name B)) AND (res.num 236-677))) and backbone) and not (atom.ele H) )"
+       Frame = 0
+       Panel = pl_interact_survey
+       SelectionType = Backbone
+       Tab = pl_rmsd_tab
+       Type = ASL
+       Unit = Angstrom
+    }
+   }
+
+   {RMSD = {
+       ASL = "(((((chain.name B)) AND (res.num 236-677))) and sidechain )"
+       Frame = 0
+       Panel = pl_interact_survey
+       SelectionType = "Side chains"
+       Tab = pl_rmsd_tab
+       Type = ASL
+       Unit = Angstrom
+    }
+   }
+
+   {RMSD = {
+       ASL = "((((((chain.name B)) AND (res.num 236-677))) and backbone ) and ( atom.ptype ' CA ') )"
+       Frame = 0
+       Panel = pl_interact_survey
+       SelectionType = C-Alpha
+       Tab = pl_rmsd_tab
+       Type = ASL
+       Unit = Angstrom
+    }
+   }
+
+   {RMSD = {
+       ASL = "(((((chain.name B)) AND (res.num 236-677))) and not (atom.ele H) )"
+       Frame = 0
+       Panel = pl_interact_survey
+       SelectionType = Heavy
+       Tab = pl_rmsd_tab
+       Type = ASL
+       Unit = Angstrom
+    }
+   }
+
+   {SecondaryStructure = {
+       ASL = "(((((chain.name B)) AND (res.num 236-677))) )"
+       Legend = "-1: NONE; 0: LOOP; 1: HELIX; 2: STRAND; 3:TURN"
+       Panel = pl_interact_survey
+       SelectionType = "(((((chain.name B)) AND (res.num 236-677))) )"
+       Tab = p_sse_tab
+       Type = ASL
+    }
+   }
+
+   {RMSF = {
+       ASL = "((((((chain.name B)) AND (res.num 236-677))) and backbone) and not (atom.ele H) )"
+       FitBy = "((((((chain.name B)) AND (res.num 236-677))) and backbone) and not (atom.ele H) )"
+       Frame = 0
+       Panel = pl_interact_survey
+       SelectionType = Backbone
+       Tab = p_rmsf_tab
+       Type = ASL
+       Unit = Angstrom
+    }
+   }
+
+   {RMSF = {
+       ASL = "(((((chain.name B)) AND (res.num 236-677))) and sidechain )"
+       FitBy = "((((((chain.name B)) AND (res.num 236-677))) and backbone) and not (atom.ele H) )"
+       Frame = 0
+       Panel = pl_interact_survey
+       SelectionType = "Side chains"
+       Tab = p_rmsf_tab
+       Type = ASL
+       Unit = Angstrom
+    }
+   }
+
+   {RMSF = {
+       ASL = "((((((chain.name B)) AND (res.num 236-677))) and backbone ) and ( atom.ptype ' CA ') )"
+       FitBy = "((((((chain.name B)) AND (res.num 236-677))) and backbone) and not (atom.ele H) )"
+       Frame = 0
+       Panel = pl_interact_survey
+       SelectionType = C-Alpha
+       Tab = p_rmsf_tab
+       Type = ASL
+       Unit = Angstrom
+    }
+   }
+
+   {RMSF = {
+       ASL = "(((((chain.name B)) AND (res.num 236-677))) and not (atom.ele H) )"
+       FitBy = "((((((chain.name B)) AND (res.num 236-677))) and backbone) and not (atom.ele H) )"
+       Frame = 0
+       Panel = pl_interact_survey
+       SelectionType = Heavy
+       Tab = p_rmsf_tab
+       Type = ASL
+       Unit = Angstrom
+    }
+   }
+
+   {ProtProtInter = {
+       ASL = "((((chain.name B)) AND (res.num 236-677)))"
+    }
+   }
+]
+ProteinASL = "((((chain.name B)) AND (res.num 236-677)))"
+Trajectory = "/home/manuel/schrodinger/md/2D6-POR2_MD/output/2D6-POR2_MD_MD-out.cms"
