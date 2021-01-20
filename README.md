@@ -1,5 +1,5 @@
 # Conformational Landscape of Cytochrome P450 Reductase Interactions
-This repository contains data generated and used in the publication [Conformational Landscape of Cytochrome P450 Reductase Interactions](https://www.doi.org/ "DOI: xxx").
+This repository contains data generated and used in the publication [Conformational Landscape of Cytochrome P450 Reductase Interactions](https://www.doi.org/10.3390/ijms22031023 "DOI: 10.3390/ijms22031023").
 
 The repository contains the following data:
 
