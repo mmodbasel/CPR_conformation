@@ -1,0 +1,2 @@
+INFO: performing energetics analyses:
+launch vrun: ['desmond', '-PROCS', '1', '-in', '/home/manuel/.schrodinger/tmp/tmpqm8ggt64/energy.cms', '-c', '/home/manuel/.schrodinger/tmp/tmpqm8ggt64/energy.cfg']

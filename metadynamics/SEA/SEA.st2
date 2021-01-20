@@ -1,0 +1,276 @@
+#Simulation Analysis Keyword File 2019-04-26T11:21:14.832717
+#Generated on structure: "frame000530"
+#To execute:
+# $SCHRODINGER/run analyze_simulation.py /home/manuel/schrodinger/md/CPR-meta/upright/output/well-tempered/run1/CPR-meta2-out.cms /home/manuel/schrodinger/md/CPR-meta/upright/output/well-tempered/run1/CPR-meta2_trj SEA-out.st2 SEA.st2
+Keywords = [
+   {Energy = {
+       Molecule_Number = 1
+       Name = Unnamed
+       Type = Coulomb
+       Type2 = Self
+       Unit = "KCal/Mol"
+    }
+   }
+
+   {Energy = {
+       Molecule_Number = 1
+       Name = Unnamed
+       Type = Coulomb
+       Type2 = Solute
+       Unit = "KCal/Mol"
+    }
+   }
+
+   {Energy = {
+       Molecule_Number = 1
+       Name = Unnamed
+       Type = Coulomb
+       Type2 = Membrane
+       Unit = "KCal/Mol"
+    }
+   }
+
+   {Energy = {
+       Molecule_Number = 1
+       Name = Unnamed
+       Type = Coulomb
+       Type2 = Solvent
+       Unit = "KCal/Mol"
+    }
+   }
+
+   {Energy = {
+       Molecule_Number = 1
+       Name = Unnamed
+       Type = Coulomb
+       Type2 = Other
+       Unit = "KCal/Mol"
+    }
+   }
+
+   {Energy = {
+       Molecule_Number = 1
+       Name = Unnamed
+       Type = vdW
+       Type2 = Self
+       Unit = "KCal/Mol"
+    }
+   }
+
+   {Energy = {
+       Molecule_Number = 1
+       Name = Unnamed
+       Type = vdW
+       Type2 = Solute
+       Unit = "KCal/Mol"
+    }
+   }
+
+   {Energy = {
+       Molecule_Number = 1
+       Name = Unnamed
+       Type = vdW
+       Type2 = Membrane
+       Unit = "KCal/Mol"
+    }
+   }
+
+   {Energy = {
+       Molecule_Number = 1
+       Name = Unnamed
+       Type = vdW
+       Type2 = Solvent
+       Unit = "KCal/Mol"
+    }
+   }
+
+   {Energy = {
+       Molecule_Number = 1
+       Name = Unnamed
+       Type = vdW
+       Type2 = Other
+       Unit = "KCal/Mol"
+    }
+   }
+
+   {Energy = {
+       Molecule_Number = 1
+       Name = Unnamed
+       Type = Bond
+       Type2 = Self
+       Unit = "KCal/Mol"
+    }
+   }
+
+   {Energy = {
+       Molecule_Number = 1
+       Name = Unnamed
+       Type = Bond
+       Type2 = Solute
+       Unit = "KCal/Mol"
+    }
+   }
+
+   {Energy = {
+       Molecule_Number = 1
+       Name = Unnamed
+       Type = Bond
+       Type2 = Membrane
+       Unit = "KCal/Mol"
+    }
+   }
+
+   {Energy = {
+       Molecule_Number = 1
+       Name = Unnamed
+       Type = Bond
+       Type2 = Solvent
+       Unit = "KCal/Mol"
+    }
+   }
+
+   {Energy = {
+       Molecule_Number = 1
+       Name = Unnamed
+       Type = Bond
+       Type2 = Other
+       Unit = "KCal/Mol"
+    }
+   }
+
+   {Energy = {
+       Molecule_Number = 1
+       Name = Unnamed
+       Type = Angle
+       Type2 = Self
+       Unit = "KCal/Mol"
+    }
+   }
+
+   {Energy = {
+       Molecule_Number = 1
+       Name = Unnamed
+       Type = Angle
+       Type2 = Solute
+       Unit = "KCal/Mol"
+    }
+   }
+
+   {Energy = {
+       Molecule_Number = 1
+       Name = Unnamed
+       Type = Angle
+       Type2 = Membrane
+       Unit = "KCal/Mol"
+    }
+   }
+
+   {Energy = {
+       Molecule_Number = 1
+       Name = Unnamed
+       Type = Angle
+       Type2 = Solvent
+       Unit = "KCal/Mol"
+    }
+   }
+
+   {Energy = {
+       Molecule_Number = 1
+       Name = Unnamed
+       Type = Angle
+       Type2 = Other
+       Unit = "KCal/Mol"
+    }
+   }
+
+   {Energy = {
+       Molecule_Number = 1
+       Name = Unnamed
+       Type = Torsion
+       Type2 = Self
+       Unit = "KCal/Mol"
+    }
+   }
+
+   {Energy = {
+       Molecule_Number = 1
+       Name = Unnamed
+       Type = Torsion
+       Type2 = Solute
+       Unit = "KCal/Mol"
+    }
+   }
+
+   {Energy = {
+       Molecule_Number = 1
+       Name = Unnamed
+       Type = Torsion
+       Type2 = Membrane
+       Unit = "KCal/Mol"
+    }
+   }
+
+   {Energy = {
+       Molecule_Number = 1
+       Name = Unnamed
+       Type = Torsion
+       Type2 = Solvent
+       Unit = "KCal/Mol"
+    }
+   }
+
+   {Energy = {
+       Molecule_Number = 1
+       Name = Unnamed
+       Type = Torsion
+       Type2 = Other
+       Unit = "KCal/Mol"
+    }
+   }
+
+   {Energy = {
+       Molecule_Number = 1
+       Name = Unnamed
+       Type = Total
+       Type2 = Self
+       Unit = "KCal/Mol"
+    }
+   }
+
+   {Energy = {
+       Molecule_Number = 1
+       Name = Unnamed
+       Type = Total
+       Type2 = Solute
+       Unit = "KCal/Mol"
+    }
+   }
+
+   {Energy = {
+       Molecule_Number = 1
+       Name = Unnamed
+       Type = Total
+       Type2 = Membrane
+       Unit = "KCal/Mol"
+    }
+   }
+
+   {Energy = {
+       Molecule_Number = 1
+       Name = Unnamed
+       Type = Total
+       Type2 = Solvent
+       Unit = "KCal/Mol"
+    }
+   }
+
+   {Energy = {
+       Molecule_Number = 1
+       Name = Unnamed
+       Type = Total
+       Type2 = Other
+       Unit = "KCal/Mol"
+    }
+   }
+]
+Trajectory = "/home/manuel/schrodinger/md/CPR-meta/upright/output/well-tempered/run1/CPR-meta2-out.cms"
