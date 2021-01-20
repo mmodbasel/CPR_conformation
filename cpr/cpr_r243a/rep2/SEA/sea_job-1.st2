@@ -1,0 +1,21 @@
+#Simulation Analysis Keyword File 2020-09-25T11:14:04.022085
+#Generated on structure: "frame1"
+#To execute:
+# $SCHRODINGER/run analyze_simulation.py /home/unibas/PhD/CPR/additional_MDs/CPR_R243A/rep2/CPR_R243A_rep2-out.cms /home/unibas/PhD/CPR/additional_MDs/CPR_R243A/rep2/CPR_R243A_rep2_trj sea_job-1-out.st2 sea_job-1.st2
+Keywords = [
+   {Distance = {
+       Name = FMN_C8M-FAD_C8M
+       Unit = Angstrom
+       a1 = 10684
+       a2 = 10747
+    }
+   }
+
+   {Rad_Gyration = {
+       ASL = "chain.name A and (res.num 76 - res.num 677)"
+       Name = CPR_glob
+       Unit = Angstrom
+    }
+   }
+]
+Trajectory = "/home/unibas/PhD/CPR/additional_MDs/CPR_R243A/rep2/CPR_R243A_rep2-out.cms"
